@@ -19,7 +19,17 @@
         </div>
       </div>
 
-      <canvas id="gameCanvas" width="900" height="500"></canvas>
+      <div class="game-panel">
+        <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+        <div id="overlay" class="overlay visible">
+          <div class="overlay-card">
+            <h1>Pong</h1>
+            <p id="overlayText">Press Start to begin</p>
+            <button id="startButton" type="button">Start Game</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
